@@ -1,0 +1,17 @@
+*.xcworkspace/xcuserdata/
+xcuserdata/
+.DS_Store
+
+# Build directory
+build/
+
+# Documentation drafts
+doc/
+
+# Python cache
+__pycache__
+
+# Configuration files for custom builds using GiteaPC
+/giteapc-config.make
+/giteapc-config-*.make
+!giteapc-config-noudisks2.make

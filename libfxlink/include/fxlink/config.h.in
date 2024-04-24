@@ -1,0 +1,17 @@
+//---------------------------------------------------------------------------//
+// ==>/[_]\   fxlink: A community communication tool for CASIO calculators.  //
+//    |:::|   Made by Lephe' as part of the fxSDK.                           //
+//    \___/   License: MIT <https://opensource.org/licenses/MIT>             //
+//---------------------------------------------------------------------------//
+// fxlink.config: Compile-time configuration
+
+#pragma once
+
+/* Disables UDisks2 interfaces for systems that don't use it. */
+#cmakedefine FXLINK_DISABLE_UDISKS2
+
+/* Disable SDL2 interfaces. */
+#cmakedefine FXLINK_DISABLE_SDL2
+
+/* fxSDK version */
+#define FXLINK_VERSION "@CMAKE_PROJECT_VERSION@"
